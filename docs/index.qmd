@@ -1,6 +1,8 @@
 ---
 title: "The 2022 Axios Harris Poll 100 reputation rankings"
-format: html
+format: 
+  html:
+    self-contained: true
 editor: visual
 ---
 
@@ -247,9 +249,7 @@ div(bscols(
 
 # Display table
 div(t)
-```
 
-```{r}
 tags$link(href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap", rel="stylesheet")
 tags$link(href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=JetBrains+Mono&display=swap", rel="stylesheet")
 ```
